@@ -1,0 +1,91 @@
+.withdraw-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.withdraw-card-cont {
+  background-color: #26762c;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 450px;
+}
+.name-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7f7e8;
+  color: #26762c;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  font-family: 'Sans Serif';
+  font-size: 25px;
+}
+.name {
+  color: white;
+  font-family: 'Sans Serif';
+  font-size: 25px;
+}
+.balance-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.your-balance {
+  color: #8cda93;
+  font-family: 'Sans Serif';
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+.update-balance {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.balance {
+  color: #e7f7e8;
+  font-size: 30px;
+}
+.in-rupees {
+  color: #e7f7e8;
+  font-family: 'Sans Serif';
+  font-size: 15px;
+}
+.w-name-m {
+  margin-left: 20px;
+  color: white;
+  font-family: 'Sans Serif';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.w-name {
+  margin-left: 20px;
+  color: #8cda93;
+  font-family: 'Sans Serif';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.denom-list {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
